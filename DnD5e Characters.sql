@@ -2,6 +2,7 @@ CREATE table DnD5eCharacters
 (
     Player_Name char(255)
     Race char(255),
+    Level int
     Class char(255),
     Strength int, 
     Dexterity int, 
