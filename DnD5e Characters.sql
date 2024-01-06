@@ -11,5 +11,5 @@ CREATE table DnD5eCharacters
     Wisom int, 
     Charisma int
 );
-INSERT INTO DnD5e_Characters(race, class, Strength, Dexterity, Constituiton, Intelligence, Wisom, Charisma)
+INSERT INTO DnD5e_Characters(Race, Class, Level, Strength, Dexterity, Constituiton, Intelligence, Wisom, Charisma)
 VALUES("Tabaxi", "Rogue", 9, 18, 16, 10, 14, 16);
