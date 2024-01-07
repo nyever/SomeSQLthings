@@ -1,3 +1,4 @@
+--Creates the table
 CREATE table DnD5eCharacters
 (
     Player_Name char(255)
@@ -11,5 +12,8 @@ CREATE table DnD5eCharacters
     Wisom int, 
     Charisma int
 );
-INSERT INTO DnD5e_Characters(Race, Class, Level, Strength, Dexterity, Constituiton, Intelligence, Wisom, Charisma)
-VALUES("Tabaxi", "Rogue", 1, 9, 18, 16, 14, 10, 16);
+
+--Setup for adding characters
+INSERT INTO DnD5e_Characters(Player_Name, Race, Class, Level, Strength, Dexterity, Constituiton, Intelligence, Wisom, Charisma)
+VALUES --Add characters here
+    ("Lynn", "Tabaxi", "Rogue", 1, 9, 18, 16, 14, 10, 16);
