@@ -16,4 +16,7 @@ CREATE table DnD5eCharacters
 --Setup for adding characters
 INSERT INTO DnD5e_Characters(Player_Name, Race, Class, Level, Strength, Dexterity, Constituiton, Intelligence, Wisom, Charisma)
 VALUES --Add characters here
-    ("Lynn", "Tabaxi", "Rogue", 1, 9, 18, 16, 14, 10, 16);
+    ("Lynn", "Tabaxi", "Rogue", 1, 9, 18, 16, 14, 10, 16); --for example here is a character I made recently
+
+--Code for whatever you want to find out
+SELECT Race, Class FROM DnD5e_Characters;
