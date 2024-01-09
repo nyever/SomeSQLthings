@@ -1,9 +1,9 @@
 --Creates the table
-CREATE table DnD5eCharacters
+CREATE table DnD5e_Characters
 (
-    Player_Name char(255)
+    Player_Name char(255),
     Race char(255),
-    Level int
+    Level int,
     Class char(255),
     Strength int, 
     Dexterity int, 
