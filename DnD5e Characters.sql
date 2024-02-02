@@ -8,14 +8,14 @@ CREATE table DnD5e_Characters
     Class char(255),
     Strength int, 
     Dexterity int, 
-    Constituiton int, 
+    Constitution int, 
     Intelligence int, 
-    Wisom int, 
+    Wisdom int, 
     Charisma int
 );
 
 --Setup for adding characters
-INSERT INTO DnD5e_Characters(Player_Name, Race, Class, Level, Strength, Dexterity, Constituiton, Intelligence, Wisom, Charisma)
+INSERT INTO DnD5e_Characters(Player_Name, Char_Name, Race, Class, Level, Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma)
 VALUES --Add characters here
     ("Nyever", "Lotus", "Tabaxi", "Rogue", 1, 9, 18, 16, 14, 10, 16); --for example here is a character I made recently
 
