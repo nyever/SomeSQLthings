@@ -1,6 +1,4 @@
---P.S This was done manually 
---P.P.S I want to cry
---P.P.P.S Cry count : 2
+
 --Makes the table
 CREATE TABLE students ( 
 id int,
