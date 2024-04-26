@@ -6,7 +6,7 @@ run3_height,
 run4_height,
 PRIMARY KEY(ball_type)
 );
-INSERT INTO Data (ball_type, run1_height, run2_height, run3_height, run4_height)
+INSERT INTO Drop_Heights (ball_type, run1_height, run2_height, run3_height, run4_height)
 VALUES
 ('Tennis Ball', 60, 59, 60, 60),
 ('PingPong Ball',49, 51, 54, 56),
